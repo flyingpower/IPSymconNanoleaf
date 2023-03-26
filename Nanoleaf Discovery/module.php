@@ -351,7 +351,7 @@ class NanoleafDiscovery extends IPSModule
         {
             if(isset($device['ST']))
             {
-                if($device['ST'] == 'nanoleaf_aurora:light' || $device['ST'] == 'nanoleaf:nl29')
+                if($device['ST'] == 'nanoleaf_aurora:light' || $device['ST'] == 'nanoleaf:nl29' || $device['ST'] == 'nanoleaf:nl42')
                 {
                     $fields = $device['Fields'];
                     foreach($fields as $field)
